@@ -1,10 +1,21 @@
 {
   "name": "remove-alpha-from-images",
   "version": "1.0.0",
-  "description": "An Electron application with React and TypeScript",
+  "description": "PNG 파일에서 알파(투명도) 값을 제거하는 Electron 애플리케이션",
   "main": "./out/main/index.js",
-  "author": "example.com",
-  "homepage": "https://electron-vite.org",
+  "author": "Vincent",
+  "homepage": "https://github.com/YourUsername/remove-alpha-from-images",
+  "keywords": [
+    "electron",
+    "png",
+    "alpha",
+    "transparency",
+    "image processing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourUsername/remove-alpha-from-images.git"
+  },
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint --cache .",
