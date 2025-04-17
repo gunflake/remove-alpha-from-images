@@ -4,7 +4,7 @@
   "description": "PNG 파일에서 알파(투명도) 값을 제거하는 Electron 애플리케이션",
   "main": "./out/main/index.js",
   "author": "Vincent",
-  "homepage": "https://github.com/YourUsername/remove-alpha-from-images",
+  "homepage": "https://github.com/gunflake/remove-alpha-from-images",
   "keywords": [
     "electron",
     "png",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YourUsername/remove-alpha-from-images.git"
+    "url": "git+https://github.com/gunflake/remove-alpha-from-images.git"
   },
   "scripts": {
     "format": "prettier --write .",
