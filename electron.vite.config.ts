@@ -1,10 +1,18 @@
-import { resolve } from 'path'
+import * as viteReactModule from '@vitejs/plugin-react'
 import { defineConfig, externalizeDepsPlugin } from 'electron-vite'
-import react from '@vitejs/plugin-react'
+import { resolve } from 'path'
+
+// @ts-ignore
+const react = viteReactModule.default || viteReactModule
 
 export default defineConfig({
   main: {
-    plugins: [externalizeDepsPlugin()]
+    plugins: [externalizeDepsPlugin()],
+    build: {
+      rollupOptions: {
+        external: ['sharp', 'archiver', 'archiver-utils']
+      }
+    }
   },
   preload: {
     plugins: [externalizeDepsPlugin()]

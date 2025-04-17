@@ -24,6 +24,7 @@
     "@electron-toolkit/preload": "^3.0.1",
     "@electron-toolkit/utils": "^4.0.0",
     "archiver": "^7.0.1",
+    "archiver-utils": "^2.0.1",
     "sharp": "^0.34.1"
   },
   "devDependencies": {
